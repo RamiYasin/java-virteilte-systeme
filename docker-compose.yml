@@ -1,0 +1,128 @@
+version: "3.5"
+
+services:
+  server:
+    build: LotGateway
+    container_name: "lotgateway"
+    image: lotgateway
+    environment:
+      - DESTINATION=cloud
+    networks:
+      - vs_network
+
+  cloud:
+    build: Cloud
+    container_name: "cloud"
+    image: cloud
+    ports:
+      - "8080:8080"
+    environment:
+      - DESTINATION1=database
+      - DESTINATION2=resiliencydatabase   
+    networks:
+      - vs_network
+
+  client_1:
+    build: Client
+    container_name: "client_1"
+    image: client
+    environment:
+      - DESTINATION=server
+      - SensorID=1 
+    networks:
+      - vs_network
+
+  client_2:
+    build: Client
+    container_name: "client_2"
+    image: client
+    stdin_open: true
+    tty: true
+    environment:
+      - DESTINATION=server
+      - SensorID=2
+    networks:
+      - vs_network
+  client_3:
+    build: Client
+    container_name: "client_3"
+    image: client
+    stdin_open: true
+    tty: true
+    environment:
+      - DESTINATION=server
+      - SensorID=2
+    networks:
+      - vs_network
+  database:
+    build: Database
+    container_name: "database"
+    image: database
+    ports:
+      - "9090:9090"   
+    environment:
+      - DESTINATION=cloud  
+    networks:
+      - vs_network
+
+  resiliencydatabase:
+    build: ResiliencyDatabase
+    container_name: "resiliencydatabase"
+    image: resiliencydatabase
+    ports:
+      - "9595:9595"   
+    environment:
+      - DESTINATION=cloud 
+    networks:
+      - vs_network
+
+  mosquitto:
+    image: "eclipse-mosquitto"
+    container_name: "mosquitto"
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - "./mosquitto.conf:/mosquitto/config/mosquitto.conf"
+    #network_mode: "host"  
+    networks:
+      - vs_network
+
+  mqttclientsubscriber:
+    build: MqttClientSubscriber
+    container_name: "mqttclientsubscriber"
+    image: mqttclientsubscriber
+    depends_on:
+      - mosquitto
+    environment:
+      - DESTINATION1=mosquitto
+      - DESTINATION2=lotgateway
+    networks:
+      - vs_network
+  mqttclientsubscriber_2:
+    build: MqttClientSubscriber
+    container_name: "mqttclientsubscriber_2"
+    image: mqttclientsubscriber
+    depends_on:
+      - mosquitto
+    environment:
+      - DESTINATION1=mosquitto
+      - DESTINATION2=lotgateway
+    networks:
+      - vs_network
+  mqttclientpublicher:
+    build: MqttClientPublisher
+    container_name: "mqttclientpublicher"
+    image: mqttclientpublicher
+    depends_on:
+      - mosquitto
+    environment:
+      - DESTINATION=mosquitto
+      - SensorID=3
+    networks:
+      - vs_network
+
+networks:
+  vs_network:
+    external: true
+      

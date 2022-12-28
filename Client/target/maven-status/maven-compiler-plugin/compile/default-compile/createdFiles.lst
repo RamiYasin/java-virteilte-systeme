@@ -1,0 +1,5 @@
+Main.class
+configuration\CliProcessor.class
+configuration\CliParameters.class
+configuration\Defaults.class
+UDPSocketClient.class

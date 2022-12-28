@@ -1,0 +1,1 @@
+das Richtige Dockerfile befindet sich unter target\classes .

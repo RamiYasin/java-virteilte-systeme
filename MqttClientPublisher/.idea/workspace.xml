@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2e5164b-147d-4440-88ba-5a09da65056b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MqttClientSubscriber/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MqttClientSubscriber/src/main/java/configuration/Defaults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MqttClientSubscriber/src/main/java/mqtt/UDPSocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mosquitto.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/UDPSocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/UDPSocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LotGateway/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LotGateway/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LotGateway/src/main/java/UDPSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LotGateway/src/main/java/UDPSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho180209232939400-tcpioteclipseorg1883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho180495664399200-tcpioteclipseorg1883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/CliParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/CliParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/CliProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/CliProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mqtt/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mqtt/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/CliParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuration/CliParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/CliProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuration/CliProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuration/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mqtt/Publisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mqtt/Publisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MqttClientSubscriber/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MqttClientSubscriber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/paho180204900487100-tcpioteclipseorg1883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/paho180478206693000-tcpioteclipseorg1883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MqttClientSubscriber/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MqttClientSubscriber/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/src/main/java/configuration/CliParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MqttClientSubscriber/src/main/java/configuration/CliParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/src/main/java/mqtt/SimpleMqttCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MqttClientSubscriber/src/main/java/mqtt/SimpleMqttCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/src/main/java/mqtt/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MqttClientSubscriber/src/main/java/mqtt/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MqttClientSubscriber/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/target/classes/de/hda/fbi/ds/mbredel/mqtt/SimpleMqttCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MqttClientSubscriber/target/classes/mqtt/Subscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MqttClientSubscriber/target/classes/mqtt/Subscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ar3eGhiRxU4IjwRNL9gmLeLTo1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MqttClientSubscriber" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\H-DA\Semester4\VERTEILTESYSTEME\Di2y-F\MqttClientPublisher" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MqttClientPublisher" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mqtt-publisher.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/src/main/bash/mqtt-publisher.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/bash" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Shell Script.mqtt-publisher.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2e5164b-147d-4440-88ba-5a09da65056b" name="Changes" comment="" />
+      <created>1655753972435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655753972435</updated>
+      <workItem from="1655753973639" duration="766000" />
+      <workItem from="1655754779283" duration="2087000" />
+      <workItem from="1655801912886" duration="257000" />
+      <workItem from="1656779052817" duration="605000" />
+      <workItem from="1656791850767" duration="3709000" />
+      <workItem from="1656853783639" duration="17000" />
+      <workItem from="1656953396450" duration="6443000" />
+      <workItem from="1656962518695" duration="1515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
